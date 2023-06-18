@@ -1,1 +1,1 @@
-# paralax-effect
+# parallax-effect
