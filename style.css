@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: kamerik-text;
+  src: url(assets/fonts/kamerik205-heavy.woff2);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: merriweather-italic-text;
+  src: url(assets/fonts/merriweather-regular-italic.woff2);
+}
+
+:root {
+  --color-white: #fff;
+}
+
+body {
+  background-color:blueviolet;
+  font-family: kamerik-text;
+  color: var(--color-white);
+}
+
+.logo {
+  background-image: url("assets/img/svg/logo.svg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.content {
+  height: 100vh;
+  background-color: aqua;
+}
+
