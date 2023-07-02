@@ -20,12 +20,13 @@
 }
 
 body {
-  background-color:blueviolet;
+  background-color: #000;
   font-family: kamerik-text;
   color: var(--color-white);
 }
 
 .logo {
+  position: absolute;
   background-image: url("assets/img/svg/logo.svg");
   background-repeat: no-repeat;
   width: 200px;
@@ -34,6 +35,32 @@ body {
 
 .content {
   height: 100vh;
-  background-color: aqua;
 }
 
+.layers {
+  /* перспектива */
+  perspective: 1000px; 
+}
+
+.layers__container {
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+.layers__item {
+  position: absolute;
+  /* width: 100vw; */
+  /* height: 100vh; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  background-position: center;
+  /* transform: rotateX(10deg); */
+  transform: rotateY(-10deg);
+}
+
+.layer-1 {
+
+}
