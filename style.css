@@ -57,8 +57,7 @@ body {
   right: 0;
   background-size: cover;
   background-position: center;
-  /* transform: rotateX(10deg); */
-  transform: rotateY(-10deg);
+  transform: rotateX(var(--move-y)) rotateY(var(--move-x));
 }
 
 .layer-1 {
